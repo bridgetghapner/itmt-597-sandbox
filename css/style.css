@@ -1,34 +1,48 @@
 @media (max-width: 12450px) {
    div {
- 	background-color:  red;
+ 	background-color:  mintcream;
+  border: 1px solid steelblue;
  	text-align:  center;
-   padding: 1%;
-   margin: .5%;
-   width: 10%;
+  margin: 2%;
+  width: 20%;
  }
 
 .box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  background-color: red;
+  justify-content: center;
+  padding: 4%;
 }
+  
+  p  {
+    font-size: 3em;
+    font-weight: 900;
+  }
 }
 
 @media (max-width: 768px) {
    div {
- 	background-color:  red;
+ 	background-color:  mintcream;
+  border: 1px solid steelblue;
  	text-align:  center;
-   padding: 1%;
-   margin: .5%;
-   width: 5%;
+  margin: 2%;
+  width: 94%;
  }
 
 .box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  background-color: red;
+  justify-content: center;
+  padding: 2%;
 }
+  
+   p  {
+    font-size: 1em;
+    font-weight: 900;
+  }
   
 }
