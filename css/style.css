@@ -1,8 +1,7 @@
-@media (max-width: 12450px) {
-   div {
- 	background-color:  mintcream;
+div {
+  background-color: mintcream;
   border: 1px solid steelblue;
- 	text-align:  center;
+  text-align: center;
   margin: 2%;
   width: 20%;
  }
@@ -11,38 +10,28 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: red;
+  background-color: mintcream;
   justify-content: center;
   padding: 4%;
 }
   
-  p  {
-    font-size: 3em;
-    font-weight: 900;
-  }
+p  {
+    font-size: 2em;
+    font-weight: 400;
 }
 
+
 @media (max-width: 768px) {
-   div {
- 	background-color:  mintcream;
-  border: 1px solid steelblue;
- 	text-align:  center;
-  margin: 2%;
-  width: 94%;
+div {
+  width: 92%;
  }
 
 .box {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: red;
-  justify-content: center;
   padding: 2%;
 }
   
-   p  {
-    font-size: 1em;
+p  {
+    font-size: 2em;
     font-weight: 900;
   }
-  
 }
