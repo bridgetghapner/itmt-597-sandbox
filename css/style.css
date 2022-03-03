@@ -22,7 +22,13 @@ footer {
 }
 
 #pagecontent {
-  margin: 4% 20% 4% 20%;
+  margin: 4% 25% 4% 25%;
+}
+
+@media (max-width: 768px) {
+#pagecontent {
+  margin: 4%;
+}
 }
 
 
