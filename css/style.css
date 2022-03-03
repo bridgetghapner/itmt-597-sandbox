@@ -2,12 +2,19 @@ body {
     background-color: mintcream;
 }
 
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  margin-bottom: 2em;
+}
+
 div {
   border: 1px solid steelblue;
   background-color: powderblue;
   text-align: center;
   margin: 2%;
   width: 20%;
+  font-family: 'Merriweather', serif;
  }
 
 .box {
