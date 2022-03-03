@@ -1,7 +1,6 @@
 /*General styles*/
 body {
     background-color: mintcream;
-    padding: 1em;
 }
 
 footer {
@@ -17,7 +16,7 @@ footer {
   padding: 1em 4em 2em 4em;
 }
 
-#page-content {
+#pagecontent {
   margin: 1em;
   width: 60%;
 }
@@ -56,8 +55,7 @@ footer {
 h1 {
   font-family: 'Merriweather', serif;
   font-size: 3em;
-  margin-bottom: 2em;
-  line-height: 4em;
+  line-height: 2em;
 }
 
 p  {
