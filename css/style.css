@@ -1,5 +1,6 @@
 body {
     background-color: mintcream;
+    padding: 2em;
 }
 
 h1 {
@@ -27,6 +28,13 @@ div {
 }
   
 p  {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+ul  {
+    font-family: 'Merriweather', serif;
     font-size: 2em;
     font-weight: 400;
 }
