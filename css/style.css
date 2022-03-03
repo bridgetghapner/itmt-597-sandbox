@@ -4,11 +4,16 @@ body {
     padding: 1em;
 }
 
-/*Intro header styles*/
+/*Intro styles*/
 #intro {
   border-bottom: 1px solid midnightblue;
   background-color: antiquewhite;
-  padding: 2em;
+  padding: 1em 4em 2em 4em;
+}
+
+#page-content {
+  margin: 1em;
+  width: 60%;
 }
 
 
