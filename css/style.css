@@ -51,6 +51,25 @@ footer {
   font-family: 'Merriweather', serif;
  }
 
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: mintcream;
+  justify-content: center;
+  padding: 4%;
+}
+
+.flextest2 {
+  border: 1px solid steelblue;
+  background-color: white;
+  padding: 1em;
+  text-align: center;
+  margin: 1%;
+  width: 20%;
+  font-family: 'Merriweather', serif;
+ }
+
 @media (max-width: 768px) {
 .box {
   padding: 1%;
