@@ -1,23 +1,11 @@
+/*General styles*/
+
 body {
     background-color: mintcream;
     padding: 2em;
 }
 
-h1 {
-  font-family: 'Merriweather', serif;
-  font-size: 3em;
-  margin-bottom: 2em;
-}
-
-div {
-  border: 1px solid steelblue;
-  background-color: powderblue;
-  text-align: center;
-  margin: 2%;
-  width: 20%;
-  font-family: 'Merriweather', serif;
- }
-
+/*Flexbox styles*/
 .box {
   display: flex;
   flex-wrap: wrap;
@@ -26,31 +14,42 @@ div {
   justify-content: center;
   padding: 4%;
 }
+
+.flextest {
+  border: 1px solid steelblue;
+  background-color: powderblue;
+  text-align: center;
+  margin: 1%;
+  width: 20%;
+  font-family: 'Merriweather', serif;
+ }
+
+@media (max-width: 768px) {
+.box {
+  padding: 1%;
+}
+
+.flextest {
+  width: 92%;
+ }
+}
   
+/*Type styles*/
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  margin-bottom: 2em;
+  line-height: 4em;
+}
+
 p  {
     font-family: 'Merriweather', serif;
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 2.4em;
 }
 
 ul  {
     font-family: 'Merriweather', serif;
-    font-size: 2em;
-    font-weight: 400;
-}
-
-
-@media (max-width: 768px) {
-div {
-  width: 92%;
- }
-
-.box {
-  padding: 2%;
-}
-  
-p  {
-    font-size: 2em;
-    font-weight: 900;
-  }
+    font-size: 1.4em;
+    line-height: 2.4em;
 }
