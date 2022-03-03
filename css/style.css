@@ -54,6 +54,10 @@ footer {
   width: 92%;
  }
 }
+
+.experiment-header {
+  text-align:  center;
+}
   
 /*Type styles*/
 h1 {
