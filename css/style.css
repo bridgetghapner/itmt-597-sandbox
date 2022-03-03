@@ -1,6 +1,10 @@
+body {
+    background-color: mintcream;
+}
+
 div {
-  background-color: mintcream;
   border: 1px solid steelblue;
+  background-color: powderblue;
   text-align: center;
   margin: 2%;
   width: 20%;
