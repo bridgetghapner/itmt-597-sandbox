@@ -1,9 +1,16 @@
 /*General styles*/
-
 body {
     background-color: mintcream;
-    padding: 2em;
+    padding: 1em;
 }
+
+/*Intro header styles*/
+#intro {
+  border-bottom: 1px solid midnightblue;
+  background-color: antiquewhite;
+  padding: 2em;
+}
+
 
 /*Flexbox styles*/
 .box {
@@ -44,12 +51,12 @@ h1 {
 
 p  {
     font-family: 'Merriweather', serif;
-    font-size: 1.4em;
-    line-height: 2.4em;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
 ul  {
     font-family: 'Merriweather', serif;
-    font-size: 1.4em;
-    line-height: 2.4em;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
