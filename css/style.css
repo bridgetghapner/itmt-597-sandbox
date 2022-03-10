@@ -3,6 +3,14 @@ body {
     background-color: peachpuff;
 }
 
+footer {
+  padding: 4em;
+  text-align: center;
+  background-color: ghostwhite;
+  margin-top: 8em;
+  color: tomato;
+}
+
 /*Intro styles*/
 #intro {
   padding: 4em 0em 0em 0em;
@@ -87,8 +95,8 @@ ul a:hover {
 /*Type styles*/
 h1 {
   font-family: 'Playfair Display', serif;
-  font-weight: 900;
-  font-size: 4em;
+  font-weight: 700;
+  font-size: 5em;
 }
 
 p  {
