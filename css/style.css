@@ -1,33 +1,33 @@
 /*General styles*/
 body {
-    background-color: mintcream;
-}
-
-footer {
-  text-align: center;
-  border-top: 1px solid midnightblue;
-  background-color: antiquewhite;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  padding: 1em;
-  min-height: 5%;
+    background-color: peachpuff;
 }
 
 /*Intro styles*/
 #intro {
-  border-bottom: 1px solid midnightblue;
-  background-color: antiquewhite;
-  padding: 1em 4em 2em 4em;
+  padding: 4em 0em 0em 0em;
+  text-align: center;
+  color: tomato;
 }
 
 #pagecontent {
-  margin: 4% 25% 4% 25%;
+  width: 50%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+ul a {
+  color: orangered;
+}
+
+ul a:hover {
+  color: coral;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
 #pagecontent {
-  margin: 4%;
+  width: 95%;
 }
 }
 
@@ -87,18 +87,17 @@ footer {
 /*Type styles*/
 h1 {
   font-family: 'Merriweather', serif;
-  font-size: 3em;
-  line-height: 2em;
+  font-size: 4em;
 }
 
 p  {
     font-family: 'Merriweather', serif;
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1.4em;
+    line-height: 1.8em;
 }
 
 ul  {
     font-family: 'Merriweather', serif;
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1.4em;
+    line-height: 1.8em;
 }
