@@ -86,7 +86,8 @@ ul a:hover {
   
 /*Type styles*/
 h1 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
   font-size: 4em;
 }
 
