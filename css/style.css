@@ -33,10 +33,19 @@ ul a:hover {
   text-decoration: none;
 }
 
+
 @media (max-width: 768px) {
 #pagecontent {
-  width: 95%;
+  width: 88%;
 }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  #intro {
+    padding: 1em;
+  }
 }
 
 
