@@ -54,37 +54,40 @@ ul a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: mintcream;
+  background-color: lavender;
   justify-content: center;
-  padding: 4%;
+  padding: 6em 0em 6em 0em;
 }
 
 .flextest {
-  border: 1px solid steelblue;
-  background-color: powderblue;
+  border: 1px solid indigo;
+  background-color: lavender;
   text-align: center;
   margin: 1%;
-  width: 20%;
-  font-family: 'Merriweather', serif;
+  width: 24%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: indigo;
  }
 
 .box2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: mintcream;
+  background-color: lightcoral;
   justify-content: center;
-  padding: 4%;
+  padding: 6em 0em 6em 0em;
 }
 
 .flextest2 {
-  border: 1px solid steelblue;
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  margin: 1%;
-  width: 20%;
-  font-family: 'Merriweather', serif;
+  background-color: antiquewhite;
+  padding: 2%;
+  margin: 2%;
+  width: 40%;
+  font-family: 'PlayfairDisplay', serif;
+  font-weight: 300;
+  border-top: 32px solid pink;
+  border-radius: 0 0 16px 16px;
  }
 
 @media (max-width: 768px) {
@@ -94,6 +97,10 @@ ul a:hover {
 
 .flextest {
   width: 92%;
+ }
+  
+.flextest2 {
+  width: 84%;
  }
 }
 
