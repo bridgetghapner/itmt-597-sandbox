@@ -67,7 +67,7 @@ footer {
 
 .page-section {
   text-align: center;
-  background-color: ghostwhite;
+  background-color: #fff;
 }
 
 .title {
@@ -81,7 +81,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: ghostwhite;
+  background-color: #fff;
   justify-content: center;
   padding: 2em 0em 6em 0em;
 }
@@ -102,7 +102,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: ghostwhite;
+  background-color: #fff;
   padding: 2em 0em 6em 0em;
   justify-content: center;
 }
@@ -115,11 +115,11 @@ footer {
 }
 
 .flextest2 {
-  background-color: ghostwhite;
+  background-color: #fff;
   padding: 3%;
   margin: 2%;
   width: 28%;
-  font-family: 'PlayfairDisplay', serif;
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: 300;
   border: 1px solid lightgray;
   border-radius: 18px;
