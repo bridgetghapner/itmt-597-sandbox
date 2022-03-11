@@ -148,7 +148,13 @@ footer {
   text-align:  center;
 }
   
+
 /*Button styles*/
+#button-page-section {
+  width: 100%;
+  padding: 20%;
+}
+
 #buttons-intro {
   text-align: center;
   border: 8px solid rebeccapurple;
@@ -171,6 +177,36 @@ footer {
 #buttons-intro ul a:hover {
   color: deepskyblue;
 }
+
+#button1 {
+  background-color: lightcoral;
+  padding: 24px;
+  font-family: 'Playfair Display', serif;
+  border: 1px solid maroon;
+  font-size: 1.2em;
+  border-radius: 10px;
+  width: 40%;
+}
+
+#button1:hover {
+  background-color: coral;
+  padding: 24px;
+  font-family: 'Playfair Display', serif;
+  border: 1px solid coral;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+#button2 {
+  background-color: lightcoral;
+  padding: 24px;
+  font-family: 'Playfair Display', serif;
+  border: 1px solid maroon;
+  font-size: 1.2em;
+  border-radius: 10px;
+  width: 40%;
+}
+
 
 /*Type styles*/
 h1 {
