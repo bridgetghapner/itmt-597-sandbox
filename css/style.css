@@ -13,7 +13,7 @@ footer {
 
 
 /*Intro styles*/
-#intro {
+.intro {
   padding: 4em 0em 0em 0em;
   text-align: center;
   color: tomato;
