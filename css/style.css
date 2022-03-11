@@ -14,9 +14,17 @@ footer {
 
 /*Intro styles*/
 .intro {
-  padding: 4em 0em 0em 0em;
   text-align: center;
   color: tomato;
+  font-family: 'PlayfairDisplay', serif;
+}
+
+.intro ul {
+  list-style: none;
+  background-color: ghostwhite;
+  margin-top: 0;
+  padding: 1em;
+  font-size: 1em;
 }
 
 #pagecontent {
@@ -138,6 +146,8 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 p  {
