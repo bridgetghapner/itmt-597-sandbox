@@ -150,11 +150,6 @@ footer {
   
 
 /*Button styles*/
-#button-page-section {
-  width: 100%;
-  padding: 20%;
-}
-
 #buttons-intro {
   text-align: center;
   border: 8px solid rebeccapurple;
@@ -178,33 +173,39 @@ footer {
   color: deepskyblue;
 }
 
+#button-page-section {
+  width: 100%;
+  text-align: center;
+  padding: 4em 0em 8em 0em;
+}
+
 #button1 {
   background-color: lightcoral;
-  padding: 24px;
-  font-family: 'Playfair Display', serif;
-  border: 1px solid maroon;
+  padding: 1.2%;
+  margin: 2%;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 1.2em;
-  border-radius: 10px;
-  width: 40%;
+  border-radius: 8px;
+  border: 2px solid salmon;
 }
 
 #button1:hover {
-  background-color: coral;
-  padding: 24px;
-  font-family: 'Playfair Display', serif;
-  border: 1px solid coral;
-  font-size: 1.2em;
-  border-radius: 10px;
+  background-color: #fff;
 }
 
 #button2 {
-  background-color: lightcoral;
-  padding: 24px;
-  font-family: 'Playfair Display', serif;
-  border: 1px solid maroon;
+   background-color: #fff;
+  padding: 1.2%;
+  margin: 2%;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 1.2em;
-  border-radius: 10px;
-  width: 40%;
+  border-radius: 8px;
+  border: 2px solid midnightblue;
+}
+
+#button2:hover {
+  background-color: midnightblue;
+  color: #fff;
 }
 
 
