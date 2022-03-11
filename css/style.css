@@ -3,10 +3,8 @@
 footer {
   padding: 6em;
   text-align: center;
-  background-color: ghostwhite;
   margin-top: 8em;
-  color: tomato;
-  border-top: 1px solid salmon; 
+  color: tomato; 
 }
 
 
@@ -16,6 +14,9 @@ footer {
   color: tomato;
   font-family: 'PlayfairDisplay', serif;
   color: salmon;
+  border: 10px solid salmon;
+  background-color: ghostwhite;
+  padding: 0% 4% 0% 4%;
 }
 
 #pagecontent {
@@ -23,6 +24,7 @@ footer {
   margin: auto;
   font-size: 1.4em;
   line-height: 1.4em;
+  padding-top: 6%;
 }
 
 @media (max-width: 768px) {
@@ -47,6 +49,7 @@ footer {
   color: rosybrown;
   font-family: 'PlayfairDisplay', serif;
   border: 10px solid rosybrown;
+  background-color: ghostwhite;
 }
 
 #flexbox-intro ul {
@@ -155,6 +158,7 @@ footer {
   border: 8px solid rebeccapurple;
   font-family: 'PlayfairDisplay', serif;
   color: rebeccapurple;
+  background-color: ghostwhite;
 }
 
 #buttons-intro ul {
