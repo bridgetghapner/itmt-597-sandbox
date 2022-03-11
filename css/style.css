@@ -66,7 +66,6 @@ footer {
 }
 
 .page-section {
-  padding-top: 2em;
   text-align: center;
   background-color: ghostwhite;
 }
@@ -149,6 +148,30 @@ footer {
   text-align:  center;
 }
   
+/*Button styles*/
+#buttons-intro {
+  text-align: center;
+  border: 8px solid rebeccapurple;
+  font-family: 'PlayfairDisplay', serif;
+  color: rebeccapurple;
+}
+
+#buttons-intro ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 2%;
+  font-size: 1em;
+}
+
+#buttons-intro ul a {
+  color: rebeccapurple;
+  text-decoration: none;
+}
+
+#buttons-intro ul a:hover {
+  color: deepskyblue;
+}
+
 /*Type styles*/
 h1 {
   font-family: 'Playfair Display', serif;
