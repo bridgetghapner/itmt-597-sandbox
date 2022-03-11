@@ -164,7 +164,12 @@ footer {
   font-size: 1.2em;
   line-height: 1.6em;
   text-align: left;
+  font-weight: 300;
 
+}
+
+.box3 h3 {
+  text-align: left;
 }
 
 .flextest3 {
@@ -174,11 +179,12 @@ footer {
   width: 28%;
   font-family: 'Chakra Petch', sans-serif;
   font-weight: 300;
-  border: 1px solid lightgray;
-  border-radius: 18px;
-  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, .25));
+  border: 1px solid thistle;
+  border-radius: 0px 0px 18px 18px;
+  border-top: 16px solid thistle;
  }
   
+
 
 /*Button styles*/
 #buttons-intro {
