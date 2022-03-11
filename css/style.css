@@ -150,6 +150,34 @@ footer {
 .experiment-header {
   text-align:  center;
 }
+
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 2em 0em 6em 0em;
+  justify-content: center;
+}
+
+.box3 p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-align: left;
+
+}
+
+.flextest3 {
+  background-color: #fff;
+  padding: 3%;
+  margin: 2%;
+  width: 28%;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 300;
+  border: 1px solid lightgray;
+  border-radius: 18px;
+  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, .25));
+ }
   
 
 /*Button styles*/
@@ -243,7 +271,7 @@ h3  {
 p { font-family: 'Playfair Display', serif;
     font-size: 1.8em;
     line-height: 1.8em;
-  font-weight: 700;
+    font-weight: 700;
 }
    
 
