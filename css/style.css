@@ -23,7 +23,7 @@ footer {
   list-style: none;
   background-color: ghostwhite;
   margin-top: 0;
-  padding: 1em;
+  padding: 2%;
   font-size: 1em;
 }
 
@@ -35,11 +35,11 @@ footer {
 
 ul a {
   color: orangered;
+  text-decoration: none;
 }
 
 ul a:hover {
-  color: coral;
-  text-decoration: none;
+  color: indigo;
 }
 
 @media (max-width: 768px) {
@@ -62,7 +62,7 @@ ul a:hover {
 .page-section {
   padding-top: 2em;
   text-align: center;
-  background-color: lavender;
+  background-color: ghostwhite;
 }
 
 .title {
@@ -76,47 +76,49 @@ ul a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: lavender;
+  background-color: ghostwhite;
   justify-content: center;
   padding: 2em 0em 6em 0em;
 }
 
 .flextest {
-  border: 1px solid indigo;
-  background-color: lavender;
+  border: 1px solid salmon;
+  background-color: rgba(90,8,8,.08);
   text-align: center;
   margin: 1%;
+  padding: 1%;
   width: 24%;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
-  color: indigo;
+  color: salmon;
  }
 
 .box2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: lavender;
-  padding: 6em 0em 6em 0em;
+  background-color: ghostwhite;
+  padding: 2em 0em 6em 0em;
   justify-content: center;
 }
 
 .box2 p {
-  font-size: 1em;
+  font-size: 1.2em;
+  line-height: 1.6em;
   text-align: left;
 
 }
 
 .flextest2 {
   background-color: ghostwhite;
-  padding: 2%;
-  margin: 1%;
+  padding: 3%;
+  margin: 2%;
   width: 28%;
   font-family: 'PlayfairDisplay', serif;
   font-weight: 300;
-  border-top: 12px solid cornflowerblue;
-  border-radius: 0 0 16px 16px;
-  filter: drop-shadow(3px 4px 3px LightSlateGray);
+  border: 1px solid lightgray;
+  border-radius: 18px;
+  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, .25));
  }
 
 @media (max-width: 768px) {
@@ -150,14 +152,23 @@ h1 {
   padding-bottom: 1em;
 }
 
+h2  {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+
 p  {
-    font-family: 'Merriweather', serif;
-    font-size: 1.4em;
+   font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
     line-height: 1.8em;
+  font-weight: 700;
 }
 
 ul  {
-    font-family: 'Merriweather', serif;
-    font-size: 1.4em;
+   font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
     line-height: 1.8em;
 }
