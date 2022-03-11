@@ -4,12 +4,13 @@ body {
 }
 
 footer {
-  padding: 4em;
+  padding: 6em;
   text-align: center;
   background-color: ghostwhite;
   margin-top: 8em;
   color: tomato;
 }
+
 
 /*Intro styles*/
 #intro {
@@ -33,9 +34,8 @@ ul a:hover {
   text-decoration: none;
 }
 
-
 @media (max-width: 768px) {
-#pagecontent {
+  #pagecontent {
   width: 88%;
 }
   
@@ -49,14 +49,28 @@ ul a:hover {
 }
 
 
+
 /*Flexbox styles*/
+.page-section {
+  padding-top: 2em;
+  text-align: center;
+  background-color: lavender;
+}
+
+.title {
+  width: 50%;
+  margin: auto;
+  padding-top: 2em;
+}
+
+
 .box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   background-color: lavender;
   justify-content: center;
-  padding: 6em 0em 6em 0em;
+  padding: 2em 0em 6em 0em;
 }
 
 .flextest {
@@ -74,24 +88,35 @@ ul a:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: lightcoral;
-  justify-content: center;
+  background-color: lavender;
   padding: 6em 0em 6em 0em;
+  justify-content: center;
+}
+
+.box2 p {
+  font-size: 1em;
+  text-align: left;
+
 }
 
 .flextest2 {
-  background-color: antiquewhite;
+  background-color: ghostwhite;
   padding: 2%;
-  margin: 2%;
-  width: 40%;
+  margin: 1%;
+  width: 28%;
   font-family: 'PlayfairDisplay', serif;
   font-weight: 300;
-  border-top: 32px solid pink;
+  border-top: 12px solid cornflowerblue;
   border-radius: 0 0 16px 16px;
+  filter: drop-shadow(3px 4px 3px LightSlateGray);
  }
 
 @media (max-width: 768px) {
-.box {
+  .box {
+  padding: 1%;
+}
+
+.box2 {
   padding: 1%;
 }
 
