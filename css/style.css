@@ -18,28 +18,11 @@ footer {
   color: salmon;
 }
 
-#flexbox-intro ul {
-  list-style: none;
-  background-color: ghostwhite;
-  margin-top: 0;
-  padding: 2%;
-  font-size: 1em;
-}
-
 #pagecontent {
   width: 50%;
   margin: auto;
   font-size: 1.4em;
   line-height: 1.4em;
-}
-
-#flexbox-intro ul a {
-  color: orangered;
-  text-decoration: none;
-}
-
-#flexbox-intro ul a:hover {
-  color: indigo;
 }
 
 @media (max-width: 768px) {
@@ -61,8 +44,25 @@ footer {
 /*Flexbox styles*/
 #flexbox-intro {
   text-align: center;
-  color: midnightblue;
+  color: rosybrown;
   font-family: 'PlayfairDisplay', serif;
+  border: 10px solid rosybrown;
+}
+
+#flexbox-intro ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 2%;
+  font-size: 1em;
+}
+
+#flexbox-intro ul a {
+  color: brown;
+  text-decoration: none;
+}
+
+#flexbox-intro ul a:hover {
+  color: orangered;
 }
 
 .page-section {
