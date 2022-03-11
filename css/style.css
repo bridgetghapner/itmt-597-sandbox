@@ -13,13 +13,13 @@ footer {
 
 
 /*Intro styles*/
-.intro {
+#index-intro, #flexbox-intro {
   text-align: center;
   color: tomato;
   font-family: 'PlayfairDisplay', serif;
 }
 
-.intro ul {
+#flexbox-intro ul {
   list-style: none;
   background-color: ghostwhite;
   margin-top: 0;
@@ -33,12 +33,12 @@ footer {
   padding-top: 1em;
 }
 
-ul a {
+#flexbox-intro ul a {
   color: orangered;
   text-decoration: none;
 }
 
-ul a:hover {
+#flexbox-intro ul a:hover {
   color: indigo;
 }
 
