@@ -12,7 +12,14 @@ header {
   text-align: center;
   font-family: 'PlayfairDisplay', serif;
   background-color: seashell;
-  padding: 2em 12em 2em 12em;
+  padding: 1em 12em 1em 12em;
+}
+
+.title {
+  width: 70%;
+  margin: auto;
+  padding-top: 6em;
+  text-align: center;
 }
 
 
@@ -49,31 +56,26 @@ h1 {
   border: 10px solid rosybrown;
 }
 
-#flexbox-intro ul {
+#flexbox-intro ul, #buttons-intro ul {
   list-style: none;
   margin-top: 0;
-  padding: 2%;
+  padding: 1%;
   font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 #flexbox-intro ul a {
   color: brown;
   text-decoration: none;
+  border: 1px solid seashell;
+  padding: 1%;
 }
 
 #flexbox-intro ul a:hover {
   color: orangered;
-}
-
-.page-section {
-  text-align: center;
-  background-color: #fff;
-}
-
-.title {
-  width: 70%;
-  margin: auto;
-  padding-top: 2em;
+  border: 1px solid orangered;
+  border-radius: 0.4em;
 }
 
 
@@ -187,13 +189,6 @@ h1 {
 #buttons-intro {
   border: 10px solid rebeccapurple;
   color: rebeccapurple;
-}
-
-#buttons-intro ul {
-  list-style: none;
-  margin-top: 0;
-  padding: 2%;
-  font-size: 1em;
 }
 
 #buttons-intro ul a {
