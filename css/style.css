@@ -1,26 +1,31 @@
 /*General styles*/
 footer {
-  padding: 3em 0em 3em 0em;
+  padding: 4em 0em 4em 0em;
   text-align: center;
   margin-top: 6em;
   color: tomato;
   background-color: seashell;
+  border-top: 1px solid tomato;
+}
+
+header {
+  text-align: center;
+  font-family: 'PlayfairDisplay', serif;
+  background-color: seashell;
+  padding: 2em 12em 2em 12em;
 }
 
 
 /*Intro styles*/
 #index-intro {
-  text-align: center;
-  font-family: 'PlayfairDisplay', serif;
   color: salmon;
   border: 10px solid salmon;
-  background-color: seashell;
-  padding: 4em;
 }
 
 #index-page-content {
   width: 50%;
   margin: auto;
+  padding-top: 4em;
 }
 
 @media (max-width: 768px) {
@@ -40,11 +45,8 @@ h1 {
 
 /*Flexbox styles*/
 #flexbox-intro {
-  text-align: center;
   color: rosybrown;
-  font-family: 'PlayfairDisplay', serif;
   border: 10px solid rosybrown;
-  background-color: ghostwhite;
 }
 
 #flexbox-intro ul {
@@ -183,11 +185,8 @@ h1 {
 
 /*Button styles*/
 #buttons-intro {
-  text-align: center;
-  border: 8px solid rebeccapurple;
-  font-family: 'PlayfairDisplay', serif;
+  border: 10px solid rebeccapurple;
   color: rebeccapurple;
-  background-color: ghostwhite;
 }
 
 #buttons-intro ul {
@@ -246,17 +245,13 @@ h1 {
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 6em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 5em;
 }
 
 h2  {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 1.5em;
-  padding-top: 1em;
-  padding-bottom: 1em;
   line-height: 1.5em;
 }
 
@@ -264,20 +259,20 @@ h3  {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 1.5em;
-  padding-top: 1em;
-  padding-bottom: 1em;
   line-height: 1.5em;
 }
 
-p { font-family: 'Playfair Display', serif;
-    font-size: 1.8em;
-    line-height: 1.8em;
-    font-weight: 700;
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6em;
+  line-height: 1.8em;
+  font-weight: 400;
 }
    
 
 ul  {
-   font-family: 'Playfair Display', serif;
-    font-size: 1.8em;
-    line-height: 1.8em;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6em;
+  line-height: 1.8em;
+  font-weight: 400;
 }
