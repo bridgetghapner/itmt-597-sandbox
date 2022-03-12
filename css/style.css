@@ -1,46 +1,41 @@
 /*General styles*/
-
 footer {
-  padding: 6em;
+  padding: 3em 0em 3em 0em;
   text-align: center;
-  margin-top: 8em;
-  color: tomato; 
+  margin-top: 6em;
+  color: tomato;
+  background-color: seashell;
 }
 
 
 /*Intro styles*/
 #index-intro {
   text-align: center;
-  color: tomato;
   font-family: 'PlayfairDisplay', serif;
   color: salmon;
   border: 10px solid salmon;
-  background-color: ghostwhite;
-  padding: 0% 4% 0% 4%;
+  background-color: seashell;
+  padding: 4em;
 }
 
-#pagecontent {
+#index-page-content {
   width: 50%;
   margin: auto;
-  font-size: 1.4em;
-  line-height: 1.4em;
-  padding-top: 6%;
 }
 
 @media (max-width: 768px) {
-  #pagecontent {
+  #index-page-content {
   width: 88%;
 }
-  
-  h1 {
+
+h1 {
     font-size: 3em;
-  }
-  
-#flexbox-intro {
+}
+
+  #index-intro, #flexbox-intro, #buttons-intro {
     padding: 1em;
   }
 }
-
 
 
 /*Flexbox styles*/
