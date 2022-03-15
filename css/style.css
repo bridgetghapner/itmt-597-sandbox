@@ -22,6 +22,12 @@ header {
   text-align: center;
 }
 
+.page-section-ghostwhite {
+  background-color:  ghostwhite;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
 
 /*Intro styles*/
 #index-intro {
