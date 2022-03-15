@@ -142,38 +142,6 @@ h1 {
   filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, .5));
  }
 
-@media (max-width: 768px) {
-  .box {
-  padding: 1%;
-}
-
-.box2 {
-  padding: 1%;
-}
-
-.flextest {
-  width: 92%;
- }
-  
-.flextest2 {
-  width: 84%;
- }
-
-  .flextest3 {
-    width: 90%;
-  }
-}
-
-@media (max-width: 1040px) {
-  .flextest3 {
-    width: 70%;
-  }
-  }
-
-.experiment-header {
-  text-align:  center;
-}
-
 .box3 {
   display: flex;
   flex-wrap: wrap;
@@ -189,26 +157,19 @@ h1 {
   text-align: left;
   font-weight: 300;
   font-family: 'Chakra Petch', sans-serif;
-
-}
-
-.box3 h3 {
-  text-align: left;
 }
 
 .flextest3 {
-  background-color: #fff;
   padding: 2%;
   margin: .5%;
-  width: 18%;
+  width: 16%;
   font-family: 'Chakra Petch', sans-serif;
   font-weight: 300;
-  border-radius: 0em 0em 1em 1em;
  }
 
 #flextest3-1 {
   border: 1px solid indianred;
-  border-top: 8px solid indianred;
+  border-top: 18px solid indianred;
   background-color: lavenderblush;
  }
 
@@ -218,7 +179,7 @@ h1 {
 
 #flextest3-2 {
   border: 1px solid salmon;
-  border-top: 8px solid salmon;
+  border-top: 18px solid salmon;
   background-color: papayawhip;
  }
 
@@ -228,7 +189,7 @@ h1 {
 
 #flextest3-3 {
   border: 1px solid SeaGreen;
-  border-top: 8px solid SeaGreen;
+  border-top: 18px solid SeaGreen;
   background-color: honeydew;
  }
 
@@ -238,13 +199,54 @@ h1 {
 
 #flextest3-4 {
   border: 1px solid dodgerblue;
-  border-top: 8px solid dodgerblue;
+  border-top: 18px solid dodgerblue;
   background-color: lightcyan;
  }
 
 #flextest3-4 h3 {
   color: dodgerblue;
  }
+
+
+@media (max-width: 768px) {
+  .box {
+  padding: 1%;
+}
+  
+  .box2 {
+  padding: 1%;
+}
+  
+  .box3 {
+  padding: 1%;
+}
+  
+  .flextest {
+  width: 92%;
+ }
+  
+  .flextest2 {
+  width: 84%;
+ }
+  
+  .flextest3 {
+  width: 80% !important;
+}
+}
+
+@media (max-width: 1440px) {
+  .box3 {
+  padding: 1%;
+}
+  
+  .flextest3 {
+  width: 38% !important;
+}
+}
+
+.experiment-header {
+  text-align:  center;
+}
 
 
 /*Button styles*/
