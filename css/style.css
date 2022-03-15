@@ -18,7 +18,7 @@ header {
 .title {
   width: 70%;
   margin: auto;
-  padding-top: 6em;
+  padding-top: 3em;
   text-align: center;
 }
 
@@ -116,16 +116,29 @@ h1 {
 
 }
 
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.box2 p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  text-align: left;
+}
+
 .flextest2 {
   background-color: #fff;
-  padding: 3%;
-  margin: 2%;
-  width: 28%;
-  font-family: 'Chakra Petch', sans-serif;
+  padding: 2%;
+  margin: 1%;
+  width: 34%;
   font-weight: 300;
-  border: 1px solid lightgray;
-  border-radius: 18px;
-  filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, .25));
+  border: 1px solid orangered;
+  border-radius: 1em;
+  filter: drop-shadow(5px 5px 5px rgba(90, 6, 6, .25));
  }
 
 @media (max-width: 768px) {
@@ -160,10 +173,11 @@ h1 {
 }
 
 .box3 p {
-  font-size: 1.2em;
-  line-height: 1.6em;
+  font-size: 1.4em;
+  line-height: 1.8em;
   text-align: left;
   font-weight: 300;
+  font-family: 'Chakra Petch', sans-serif;
 
 }
 
@@ -174,15 +188,12 @@ h1 {
 .flextest3 {
   background-color: #fff;
   padding: 1.25%;
-  margin: .25%;
-  width: 18%;
+  margin: .5%;
+  width: 22%;
   font-family: 'Chakra Petch', sans-serif;
   font-weight: 300;
-  border: 1px solid thistle;
-  border-radius: 0px 0px 18px 18px;
-  border-top: 16px solid thistle;
+  border-radius: 0em 0em 1em 1em;
  }
-  
 
 
 /*Button styles*/
