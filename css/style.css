@@ -113,7 +113,7 @@ h1 {
   font-size: 1.2em;
   line-height: 2em !important;
   text-align: left;
-  color: orangered;
+  color: darkslategray;
 
 }
 
@@ -160,9 +160,15 @@ h1 {
  }
 
   .flextest3 {
-width: 90%;
+    width: 90%;
   }
 }
+
+@media (max-width: 1040px) {
+  .flextest3 {
+    width: 70%;
+  }
+  }
 
 .experiment-header {
   text-align:  center;
