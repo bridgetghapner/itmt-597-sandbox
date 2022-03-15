@@ -213,6 +213,31 @@ h1 {
   color: dodgerblue;
  }
 
+ .flextest4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box4 {
+  width: 42%;
+  margin: 1em auto;
+  font-family: Playfair Display, serif;
+  background-color: ghostwhite;
+  padding: 3em;
+}
+.box4-summary {
+  font-weight: 700;
+  letter-spacing: .01em;
+  font-size: 1.6em;
+}
+
+.box4 p {
+  margin-top: 2em;
+  font-size: 1.2em;
+  line-height: 1.8em;
+
+
 
 @media (max-width: 768px) {
   .box {
