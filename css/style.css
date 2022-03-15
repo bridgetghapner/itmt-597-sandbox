@@ -51,12 +51,12 @@ h1 {
 
 
 /*Flexbox styles*/
-#flex-intro {
+#flexbox-intro {
   color: rosybrown;
   border: 10px solid rosybrown;
 }
 
-#flex-intro ul, #buttons-intro ul {
+#flexbox-intro ul, #buttons-intro ul {
   list-style: none;
   margin-top: 0;
   padding: 1%;
@@ -65,14 +65,14 @@ h1 {
   letter-spacing: 0.04em;
 }
 
-#flex-intro ul a {
+#flexbox-intro ul a {
   color: brown;
   text-decoration: none;
   border: 1px solid seashell;
   padding: 1%;
 }
 
-#flex-intro ul a:hover {
+#flexbox-intro ul a:hover {
   color: orangered;
   border: 1px solid orangered;
   border-radius: 0.4em;
