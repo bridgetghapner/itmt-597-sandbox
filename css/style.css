@@ -52,8 +52,9 @@ header {
 
 /*Accordion styles*/
 #dropdown-intro {
-  color: darkseagreen;
-  border: 14px solid darkseagreen;
+  color: #FF0000;
+  border: 14px solid #B3DDF2;
+  background-color: #fff;
 }
 
 .single-accordion {
