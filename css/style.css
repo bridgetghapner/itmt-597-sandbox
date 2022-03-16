@@ -5,7 +5,7 @@ footer {
   border-top: 1px solid salmon;
 }
 
-.accordion1 .annotation {
+.page-section-ghostwhite .annotation {
   font-size: 1.2em;
   width: 46%;
   margin: auto;
@@ -350,8 +350,8 @@ p {
 }
 
 p a, ul a {
-  color: tomato;
-  background-color: peachpuff;
+  color: crimson;
+  background-color: seashell;
 }
 
 P a:hover, ul a:hover {
