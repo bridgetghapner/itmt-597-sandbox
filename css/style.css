@@ -28,6 +28,21 @@ header {
   border-bottom: 1px solid lightgray;
 }
 
+#flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 1%;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+#flexbox-intro ul a, #buttons-intro ul a, #dropdown-intro ul a {
+  color: darkslategray;
+  border: 1px solid seashell;
+  padding: 1%;
+}
+
 
 /*Accordion styles*/
 #dropdown-intro {
@@ -35,13 +50,13 @@ header {
   border: 10px solid darkseagreen;
 }
 
-.flextest4 {
+.accordion1 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.box4 {
+.single-accordion {
   width: 42%;
   margin: 1em auto;
   font-family: Playfair Display, serif;
@@ -49,13 +64,13 @@ header {
   padding: 3em;
 }
 
-.box4-summary {
+.summary {
   font-weight: 700;
   letter-spacing: .01em;
   font-size: 1.6em;
 }
 
-.box4 p {
+.single-accordion p {
   margin-top: 2em;
   font-size: 1.2em;
   line-height: 1.8em;
@@ -96,26 +111,11 @@ h1 {
   border: 10px solid rosybrown;
 }
 
-#flexbox-intro ul, #buttons-intro ul {
-  list-style: none;
-  margin-top: 0;
-  padding: 1%;
-  font-size: 1em;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
 
-#flexbox-intro ul a {
-  color: brown;
-  text-decoration: none;
-  border: 1px solid seashell;
-  padding: 1%;
-}
-
-#flexbox-intro ul a:hover {
-  color: orangered;
-  border: 1px solid orangered;
-  border-radius: 0.4em;
+#flexbox-intro ul a:hover, #buttons-intro ul a:hover, #dropdown-intro ul a:hover {
+  color: #fff;
+  background-color: darkslategray;
+  border-radius: .4em;
 }
 
 
@@ -292,15 +292,6 @@ h1 {
 #buttons-intro {
   border: 10px solid rebeccapurple;
   color: rebeccapurple;
-}
-
-#buttons-intro ul a {
-  color: rebeccapurple;
-  text-decoration: none;
-}
-
-#buttons-intro ul a:hover {
-  color: deepskyblue;
 }
 
 #button-page-section {
