@@ -351,6 +351,7 @@ p {
 
 p a, ul a {
   color: tomato;
+  background-color: peachpuff;
 }
 
 P a:hover, ul a:hover {
