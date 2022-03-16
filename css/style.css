@@ -360,6 +360,11 @@ p {
   line-height: 1.8em;
   font-weight: 400;
 }
+
+p a, ul a {
+  color: salmon;
+  background-color: seashell;
+}
    
 ul  {
   font-family: 'Playfair Display', serif;
