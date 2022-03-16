@@ -43,8 +43,10 @@ header {
 
 #flexbox-intro ul a, #buttons-intro ul a, #dropdown-intro ul a {
   color: darkslategray;
-  border: 1px solid seashell;
-  padding: 1%;
+}
+
+#flexbox-intro ul a:hover, #buttons-intro ul a:hover, #dropdown-intro ul a:hover {
+  color: darkorchid;
 }
 
 
@@ -91,6 +93,7 @@ header {
 }
 
 #index-page-content ul li {
+  color:  dimgrey;
   list-style: none;
   border: 1px solid salmon;
   margin: 1em 0em 1em 0em;
@@ -127,12 +130,6 @@ h1 {
 #flexbox-intro {
   color: rosybrown;
   border: 14px solid rosybrown;
-}
-
-#flexbox-intro ul a:hover, #buttons-intro ul a:hover, #dropdown-intro ul a:hover {
-  color: #fff;
-  background-color: darkslategray;
-  border-radius: .4em;
 }
 
 .box {
