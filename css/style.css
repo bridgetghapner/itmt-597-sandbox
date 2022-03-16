@@ -51,7 +51,7 @@ header {
 /*Accordion styles*/
 #dropdown-intro {
   color: darkseagreen;
-  border: 12px solid darkseagreen;
+  border: 14px solid darkseagreen;
 }
 
 .single-accordion {
@@ -77,13 +77,18 @@ header {
 /*Intro styles*/
 #index-intro {
   color: salmon;
-  border: 12px solid salmon;
+  border: 14px solid salmon;
 }
 
 #index-page-content {
-  width: 50%;
+  width: 52%;
   margin: auto;
   padding-top: 4em;
+}
+
+#index-page-content ul {
+  list-style: none;
+  border: 2px solid salmon;
 }
 
 @media (max-width: 768px) {
@@ -104,7 +109,7 @@ h1 {
 /*Flexbox styles*/
 #flexbox-intro {
   color: rosybrown;
-  border: 12px solid rosybrown;
+  border: 14px solid rosybrown;
 }
 
 #flexbox-intro ul a:hover, #buttons-intro ul a:hover, #dropdown-intro ul a:hover {
@@ -280,14 +285,8 @@ h1 {
 
 /*Button styles*/
 #buttons-intro {
-  border: 12px solid rebeccapurple;
-  color: rebeccapurple;
-}
-
-#button-page-section {
-  width: 100%;
-  text-align: center;
-  padding: 4em 0em 8em 0em;
+  border: 14px solid Turquoise;
+  color: Turquoise;
 }
 
 #button1 {
@@ -323,22 +322,22 @@ h1 {
 /*Type styles*/
 h1 {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 5em;
 }
 
 h2  {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.8em;
+  line-height: 2em;
 }
 
 h3  {
   font-family: 'Playfair Display', serif;
-  font-weight: 900;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-weight: 700;
+  font-size: 1.6em;
+  line-height: 1.8em;
 }
 
 p {
@@ -348,7 +347,6 @@ p {
   font-weight: 400;
 }
    
-
 ul  {
   font-family: 'Playfair Display', serif;
   font-size: 1.6em;
