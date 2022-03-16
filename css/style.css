@@ -50,18 +50,17 @@ header {
   border: 10px solid darkseagreen;
 }
 
-.accordion1 {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+.page-section-ghostwhite h2 {
+  margin-bottom: 3em;
 }
 
 .single-accordion {
   width: 42%;
   margin: 1em auto;
   font-family: Playfair Display, serif;
-  background-color: ghostwhite;
-  padding: 3em;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  padding: 2em;
 }
 
 .summary {
@@ -70,12 +69,11 @@ header {
   font-size: 1.6em;
 }
 
-.single-accordion p {
+.single-accordion p, .single-accordion ul {
   margin-top: 2em;
   font-size: 1.2em;
   line-height: 1.8em;
 }
-
 
 
 /*Intro styles*/
