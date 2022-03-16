@@ -7,10 +7,17 @@ footer {
   border-top: 1px solid tomato;
 }
 
+.accordion1 .annotation {
+  font-size: 1.2em;
+  width: 46%;
+  margin: auto;
+  padding-top: 1em;
+}
+
 header {
   text-align: center;
   font-family: 'PlayfairDisplay', serif;
-  padding: 5em;
+  padding: 2em 5em 5em 5em;
 }
 
 .title {
@@ -33,21 +40,10 @@ header {
 
 #flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul {
   list-style: none;
-  margin-top: 0;
-  padding: 1%;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
-
-#flexbox-intro ul a, #buttons-intro ul a, #dropdown-intro ul a {
-  color: darkslategray;
-}
-
-#flexbox-intro ul a:hover, #buttons-intro ul a:hover, #dropdown-intro ul a:hover {
-  color: darkorchid;
-}
-
 
 /*Accordion styles*/
 #dropdown-intro {
