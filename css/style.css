@@ -183,9 +183,9 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: #fff;
   padding: 2em 0em 6em 0em;
   justify-content: center;
+  margin-bottom: 3em;
 }
 
 .box3 p {
