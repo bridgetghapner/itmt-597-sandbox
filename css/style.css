@@ -2,7 +2,6 @@
 footer {
   padding: 4em 0em 4em 0em;
   text-align: center;
-  margin-top: 6em;
   color: tomato;
   background-color: seashell;
   border-top: 1px solid tomato;
@@ -12,20 +11,23 @@ header {
   text-align: center;
   font-family: 'PlayfairDisplay', serif;
   background-color: seashell;
-  padding: 1em 12em 1em 12em;
+  padding: 2em 12em 2em 12em;
 }
 
 .title {
-  width: 70%;
+  width: 60%;
   margin: auto;
-  padding-top: 3em;
+  padding-top: 3em 0em 3em 0em;
   text-align: center;
 }
 
 .page-section-ghostwhite {
-  background-color:  ghostwhite;
+  background-color: ghostwhite;
   border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+}
+
+.page-section {
+  border-top: 1px solid lightgray;
 }
 
 #flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul {
@@ -47,19 +49,14 @@ header {
 /*Accordion styles*/
 #dropdown-intro {
   color: darkseagreen;
-  border: 10px solid darkseagreen;
-}
-
-.page-section-ghostwhite h2 {
-  margin-bottom: 3em;
+  border: 12px solid darkseagreen;
 }
 
 .single-accordion {
   width: 42%;
-  margin: 1em auto;
+  margin: .4em auto;
   font-family: Playfair Display, serif;
   background-color: #fff;
-  border: 1px solid lightgray;
   padding: 2em;
 }
 
@@ -70,7 +67,6 @@ header {
 }
 
 .single-accordion p, .single-accordion ul {
-  margin-top: 2em;
   font-size: 1.2em;
   line-height: 1.8em;
 }
@@ -79,7 +75,7 @@ header {
 /*Intro styles*/
 #index-intro {
   color: salmon;
-  border: 10px solid salmon;
+  border: 12px solid salmon;
 }
 
 #index-page-content {
@@ -106,16 +102,14 @@ h1 {
 /*Flexbox styles*/
 #flexbox-intro {
   color: rosybrown;
-  border: 10px solid rosybrown;
+  border: 12px solid rosybrown;
 }
-
 
 #flexbox-intro ul a:hover, #buttons-intro ul a:hover, #dropdown-intro ul a:hover {
   color: #fff;
   background-color: darkslategray;
   border-radius: .4em;
 }
-
 
 .box {
   display: flex;
@@ -185,7 +179,7 @@ h1 {
   flex-direction: row;
   padding: 2em 0em 6em 0em;
   justify-content: center;
-  margin-bottom: 3em;
+  padding-bottom: 3em;
 }
 
 .box3 p {
@@ -288,7 +282,7 @@ h1 {
 
 /*Button styles*/
 #buttons-intro {
-  border: 10px solid rebeccapurple;
+  border: 12px solid rebeccapurple;
   color: rebeccapurple;
 }
 
