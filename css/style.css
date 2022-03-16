@@ -82,13 +82,30 @@ header {
 
 #index-page-content {
   width: 52%;
-  margin: auto;
+  margin: 0em auto 8em auto;
   padding-top: 4em;
 }
 
 #index-page-content ul {
+  padding-left: 0;
+}
+
+#index-page-content ul li {
   list-style: none;
-  border: 2px solid salmon;
+  border: 1px solid salmon;
+  margin: 1em 0em 1em 0em;
+  padding: .8em;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+#index-page-content ul li a {
+  color: salmon;
+  text-decoration: none;
+}
+
+#index-page-content ul li:hover {
+  background-color: mistyrose;
 }
 
 @media (max-width: 768px) {
