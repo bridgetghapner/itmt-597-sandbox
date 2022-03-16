@@ -91,20 +91,14 @@ header {
 #index-page-content ul li {
   color:  dimgrey;
   list-style: none;
-  border: 1px solid salmon;
-  margin: 1em 0em 1em 0em;
-  padding: .8em;
+  padding: .2em 0em .2em 0em;
   font-weight: 700;
   letter-spacing: .02em;
 }
 
-#index-page-content ul li a {
-  color: salmon;
-  text-decoration: none;
-}
 
-#index-page-content ul li:hover {
-  background-color: mistyrose;
+#index-page-content ul li a:hover {
+  color: indianred;
 }
 
 @media (max-width: 768px) {
@@ -360,6 +354,10 @@ p {
 p a, ul a {
   color: salmon;
   background-color: seashell;
+}
+
+P a:hover, ul a:hover {
+    color: indianred;
 }
    
 ul  {
