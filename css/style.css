@@ -43,6 +43,19 @@ header {
   letter-spacing: 0.01em;
 }
 
+#flexbox-intro li a {
+    color: sienna;
+}
+
+#buttons-intro li a {
+  color: darkgreen;
+}
+
+#dropdown-intro li a {
+   color: firebrick;
+}
+  
+
 /*Accordion styles*/
 #dropdown-intro {
   color: #FF0000;
