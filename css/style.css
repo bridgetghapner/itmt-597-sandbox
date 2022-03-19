@@ -179,6 +179,7 @@ h1 {
   margin: auto;
   background-color: seashell;
   border: 1px solid sienna;
+  justify-content: space-between;
 }
 
 .flextest2 {
@@ -186,7 +187,6 @@ h1 {
   background-color: rgba(90,8,8,.08);
   text-align: center;
   margin: 1%;
-  padding: .5%;
   width: 10%;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
@@ -199,7 +199,7 @@ h1 {
   text-align: center;
   margin: 1%;
   padding: .5%;
-  width: 42%;
+  width: 46%;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   color: sienna;
@@ -320,6 +320,18 @@ h1 {
   width: 80% !important;
     margin: 1%;
 }
+  .box2 {
+  width: 90%;
+   justify-content: center;
+  }
+
+.flextest2 {
+  width: 70%;
+ }
+
+.flextest2-1 {
+  width: 90%;
+  }
 }
 
 @media (max-width: 1440px) {
