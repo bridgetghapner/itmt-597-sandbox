@@ -38,7 +38,7 @@ header {
   padding: 6em 0em 6em 0em;
 }
 
-#flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul {
+#flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul, #nav-intro ul {
   list-style: none;
   font-size: 1.2em;
   font-weight: 700;
@@ -61,7 +61,12 @@ header {
 }
 
 #nav-intro li a {
-   color: firebrick;
+  color: darkblue;
+  background-color: #fff !important;
+}
+
+#nav-intro li a:hover {
+  color: blue;
   background-color: #fff !important;
 }
   
@@ -71,6 +76,22 @@ header {
   color: darkblue;
   border: 14px solid darkblue;
   background-color: #fff;
+}
+
+#horizontal-nav ul{
+  list-style: none;
+  width: 100%;
+}
+
+
+#horizontal-nav li{
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+  border: 1px solid aquamarine;
+  background-color: aquamarine;
+  width: 15%;
+  font-weight: 700;
 }
 
 /*Accordion styles*/
@@ -179,7 +200,6 @@ h1 {
   margin: auto;
   background-color: seashell;
   border: 1px solid sienna;
-  justify-content: space-between;
 }
 
 .flextest2 {
@@ -187,6 +207,7 @@ h1 {
   background-color: rgba(90,8,8,.08);
   text-align: center;
   margin: 1%;
+  padding: .5%;
   width: 10%;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
@@ -199,7 +220,7 @@ h1 {
   text-align: center;
   margin: 1%;
   padding: .5%;
-  width: 46%;
+  width: 42%;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   color: sienna;
@@ -320,18 +341,6 @@ h1 {
   width: 80% !important;
     margin: 1%;
 }
-  .box2 {
-  width: 90%;
-   justify-content: center;
-  }
-
-.flextest2 {
-  width: 70%;
- }
-
-.flextest2-1 {
-  width: 90%;
-  }
 }
 
 @media (max-width: 1440px) {
