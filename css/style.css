@@ -79,19 +79,30 @@ header {
 }
 
 #horizontal-nav ul{
-  list-style: none;
-  width: 100%;
+  width: 75%;
+  margin: auto;
+  border-top: 2px solid mediumseagreen;
+  background-color: aquamarine;
 }
 
 
 #horizontal-nav li{
   list-style: none;
   display: inline-block;
-  padding: 1em;
-  border: 1px solid aquamarine;
+  padding: 2%;
+  font-weight: 400;
+}
+
+#horizontal-nav li a {
   background-color: aquamarine;
-  width: 15%;
-  font-weight: 700;
+  text-decoration: none;
+  color: darkblue;
+}
+
+#horizontal-nav li a:hover {
+  background-color: aquamarine;
+  text-decoration: none;
+  color: firebrick;
 }
 
 /*Accordion styles*/
