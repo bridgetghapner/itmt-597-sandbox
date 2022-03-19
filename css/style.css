@@ -374,35 +374,49 @@ h1 {
   text-align: center;
   width: 90%;
   margin: auto;
+  border: 1px solid red;
+  display: flex;
 }
 
 #button1 {
-  background-color: lightcoral;
-  padding: 1.2%;
-  margin: 2%;
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 1.2em;
-  border-radius: 8px;
-  border: 2px solid salmon;
+  background-color: rgba(76, 76, 90);
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.04em;
+  padding: 1.2em;
+  border-radius: .4em;
+  border: 2px solid rgba(76, 76, 90);
+  margin: 1em;
 }
 
 #button1:hover {
-  background-color: #fff;
+  background-color: rgba(76, 76, 90, .8);
 }
 
 #button2 {
-   background-color: #fff;
-  padding: 1.2%;
-  margin: 2%;
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 1.2em;
-  border-radius: 8px;
-  border: 2px solid midnightblue;
+  background-color: rgba(76, 76, 90);
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.04em;
+  padding: 1.2em;
+  border-radius: .4em;
+  border: 2px solid rgba(76, 76, 90);
+  margin: 1em;
 }
 
 #button2:hover {
-  background-color: midnightblue;
+  background-color: rgba(76, 76, 90, .8);
+}
+
+#button3 {
+  background-color: rgba(76, 76, 90);
   color: #fff;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.04em;
+  padding: 1.2em;
+  border-radius: .4em;
+  border: 2px solid rgba(76, 76, 90);
+  margin: 1em;
 }
 
 
