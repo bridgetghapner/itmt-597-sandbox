@@ -371,11 +371,13 @@ h1 {
 }
 
 #buttons-container {
-  text-align: center;
   width: 90%;
   margin: auto;
-  border: 1px solid red;
   display: flex;
+}
+
+#buttons-container h2 {
+  padding-right: 8%;
 }
 
 #button1 {
@@ -394,8 +396,8 @@ h1 {
 }
 
 #button2 {
-  background-color: rgba(76, 76, 90);
-  color: #fff;
+  background-color: #fff;
+  color: rgba(76, 76, 90);
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.04em;
   padding: 1.2em;
@@ -405,10 +407,21 @@ h1 {
 }
 
 #button2:hover {
-  background-color: rgba(76, 76, 90, .8);
+  opacity: 65%;
 }
 
 #button3 {
+  background-color: maroon;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.04em;
+  padding: 1.2em;
+  border-radius: .4em;
+  border: 2px solid maroon;
+  margin: 1em;
+}
+
+#button4 {
   background-color: rgba(76, 76, 90);
   color: #fff;
   font-family: 'Playfair Display', serif;
@@ -417,6 +430,11 @@ h1 {
   border-radius: .4em;
   border: 2px solid rgba(76, 76, 90);
   margin: 1em;
+}
+
+#button4 img {
+  width: 16px;
+  padding-right: 8px;
 }
 
 
