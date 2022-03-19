@@ -370,17 +370,27 @@ h1 {
   color: Turquoise;
 }
 
-#buttons-container {
+.buttons-container {
   width: 90%;
   margin: auto;
   display: flex;
 }
 
-#buttons-container h2 {
-  padding-right: 8%;
+.buttons-container p{
+  font-size: 1em;
+}
+
+.buttons-container h2 {
+  width: 20%;
+}
+
+.button-container {
+  width: 22%;
+  padding: 1em;
 }
 
 #button1 {
+  width: 90%;
   background-color: rgba(76, 76, 90);
   color: #fff;
   font-family: 'Playfair Display', serif;
@@ -388,7 +398,6 @@ h1 {
   padding: 1.2em;
   border-radius: .4em;
   border: 2px solid rgba(76, 76, 90);
-  margin: 1em;
 }
 
 #button1:hover {
@@ -396,6 +405,7 @@ h1 {
 }
 
 #button2 {
+  width: 90%;
   background-color: #fff;
   color: rgba(76, 76, 90);
   font-family: 'Playfair Display', serif;
@@ -403,7 +413,6 @@ h1 {
   padding: 1.2em;
   border-radius: .4em;
   border: 2px solid rgba(76, 76, 90);
-  margin: 1em;
 }
 
 #button2:hover {
@@ -411,6 +420,7 @@ h1 {
 }
 
 #button3 {
+ width: 90%;
   background-color: maroon;
   color: #fff;
   font-family: 'Playfair Display', serif;
@@ -418,10 +428,10 @@ h1 {
   padding: 1.2em;
   border-radius: .4em;
   border: 2px solid maroon;
-  margin: 1em;
 }
 
 #button4 {
+  width: 90%;
   background-color: rgba(76, 76, 90);
   color: #fff;
   font-family: 'Playfair Display', serif;
@@ -429,12 +439,81 @@ h1 {
   padding: 1.2em;
   border-radius: .4em;
   border: 2px solid rgba(76, 76, 90);
-  margin: 1em;
 }
 
 #button4 img {
   width: 16px;
   padding-right: 8px;
+}
+
+#button5 {
+  width: 90%;
+  background-color: darkmagenta;
+  color: lavenderblush;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+  padding: 1.6em;
+  border-radius: .8em;
+  border: 1px solid darkmagenta;
+}
+
+#button5:hover {
+  background-color: lavenderblush;
+  color: darkmagenta;
+}
+
+#button6 {
+  width: 90%;
+  background-color: darkmagenta;
+  color: lavenderblush;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+  padding: 1.6em;
+  border-radius: .8em;
+  border: 1px solid darkmagenta;
+}
+
+#button6:hover {
+  background-color: rgba(76, 76, 90, .8);
+}
+
+#button7 {
+ width: 90%;
+  background-color: darkmagenta;
+  color: lavenderblush;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+  padding: 1.6em;
+  border-radius: .8em;
+  border: 1px solid darkmagenta;
+}
+
+#button7:hover {
+  background-color: rgba(76, 76, 90, .8);
+}
+
+#button8 {
+  width: 90%;
+  background-color: darkmagenta;
+  color: lavenderblush;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+  padding: 1.6em;
+  border-radius: .8em;
+  border: 1px solid darkmagenta;
+}
+
+#button8 img {
+  width: 16px;
+  padding-right: 8px;
+}
+
+#button8:hover {
+  background-color: rgba(76, 76, 90, .8);
 }
 
 
