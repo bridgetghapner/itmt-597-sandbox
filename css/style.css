@@ -78,19 +78,20 @@ header {
   background-color: #fff;
 }
 
-#horizontal-nav ul{
-  width: 75%;
-  margin: auto;
+#horizontal-nav ul{ 
+  width: 18%;
+  float: left;
   border-top: 1px solid darkblue;
   background-color: #fff;
+  padding: 2%;
+  margin-left: 3%;
 }
 
 
 #horizontal-nav li{
   list-style: none;
-  display: inline-block;
-  padding: 2%;
   font-weight: 400;
+  padding: 1%;
 }
 
 #horizontal-nav li a {
@@ -103,6 +104,28 @@ header {
   background-color: #fff;
   text-decoration: none;
   color: royalblue;
+}
+
+#it-follows {
+  width: 60%;
+  display: inline-block;
+  margin: 1%;
+  background-color: #fff;
+  padding: 3%;
+  border-top: 1px solid darkblue;
+}
+
+#it-follows h2 {
+  color: darkblue;
+}
+
+#hostel {
+  width: 60%;
+  display: inline-block;
+  margin: 1%;
+  background-color: #fff;
+  padding: 3%;
+  border-top: 1px solid darkblue;
 }
 
 /*Accordion styles*/
