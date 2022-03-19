@@ -145,7 +145,7 @@ h1 {
   flex-wrap: wrap;
   flex-direction: row;
   background-color: #fff;
-  padding: 2em 0em 6em 0em;
+  padding: 2em 0em 2m 0em;
   justify-content: center;
 }
 
@@ -157,23 +157,16 @@ h1 {
 
 }
 
-.box2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #fff;
-  justify-content: center;
-}
 
 .box2 p {
-  font-size: 1.2em;
-  line-height: 1.8em;
+  font-size: 1em;
+  line-height: 1.1em;
   text-align: left;
 }
 
 .flextest2 {
   background-color: #fff;
-  padding: 2em;
+  padding: 1em;
   margin: 1%;
   width: 36%;
   font-weight: 300;
@@ -339,7 +332,14 @@ h3  {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 1.6em;
-  line-height: 1.8em;
+  line-height: 1.6em;
+}
+
+h3  {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
 
 p {
