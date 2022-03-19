@@ -153,7 +153,7 @@ h1 {
   color: salmon;
  }
 
-.box2 {
+.box3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -162,7 +162,7 @@ h1 {
   justify-content: center;
 }
 
-.box2 p {
+.box3 p {
   font-size: 1.2em;
   line-height: 2em !important;
   text-align: left;
@@ -171,13 +171,13 @@ h1 {
 }
 
 
-.box2 p {
+.box3 p {
   font-size: 1em;
   line-height: 1.1em;
   text-align: left;
 }
 
-.flextest2 {
+.flextest3 {
   background-color: #fff;
   padding: 1em;
   margin: 1%;
@@ -188,14 +188,14 @@ h1 {
   filter: drop-shadow(5px 5px 5px rgba(80, 80, 80, .1));
  }
 
-.box3 {
+.box4 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
 
-.box3 p {
+.box4 p {
   font-size: 1.2em;
   line-height: 1.6em;
   text-align: left;
@@ -203,7 +203,7 @@ h1 {
   font-family: 'Chakra Petch', sans-serif;
 }
 
-.flextest3 {
+.flextest4 {
   padding: 2%;
   margin: .5%;
   width: 16%;
@@ -212,43 +212,43 @@ h1 {
   
  }
 
-#flextest3-1 {
+#flextest4-1 {
   border: 1px solid indianred;
   border-top: 22px solid indianred;
   background-color: lavenderblush;
  }
 
-#flextest3-1 h3 {
+#flextest4-1 h3 {
   color: indianred;
  }
 
-#flextest3-2 {
+#flextest4-2 {
   border: 1px solid salmon;
   border-top: 22px solid salmon;
   background-color: papayawhip;
  }
 
-#flextest3-2 h3 {
+#flextest4-2 h3 {
   color: salmon;
  }
 
-#flextest3-3 {
+#flextest4-3 {
   border: 1px solid SeaGreen;
   border-top: 22px solid SeaGreen;
   background-color: honeydew;
  }
 
-#flextest3-3 h3 {
+#flextest4-3 h3 {
   color: SeaGreen;
  }
 
-#flextest3-4 {
+#flextest4-4 {
   border: 1px solid dodgerblue;
   border-top: 22px solid dodgerblue;
   background-color: lightcyan;
  }
 
-#flextest3-4 h3 {
+#flextest4-4 h3 {
   color: dodgerblue;
  }
 
@@ -258,11 +258,11 @@ h1 {
   padding: 1%;
 }
   
-  .box2 {
+  .box3 {
   padding: 1%;
 }
   
-  .box3 {
+  .box4 {
   padding: 1%;
 }
   
@@ -270,22 +270,22 @@ h1 {
   width: 92%;
  }
   
-  .flextest2 {
+  .flextest3 {
   width: 84%;
  }
   
-  .flextest3 {
+  .flextest4 {
   width: 80% !important;
     margin: 1%;
 }
 }
 
 @media (max-width: 1440px) {
-  .box3 {
+  .box4 {
   padding: 1%;
 }
   
-  .flextest3 {
+  .flextest4 {
   width: 36%;
     margin: 2%;
 }
