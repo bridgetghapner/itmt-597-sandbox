@@ -46,17 +46,32 @@ header {
 }
 
 #flexbox-intro li a {
-    color: sienna;
+  color: sienna;
+  background-color: #fff !important;
 }
 
 #buttons-intro li a {
   color: darkgreen;
+  background-color: #fff !important;
 }
 
 #dropdown-intro li a {
    color: firebrick;
+  background-color: #fff !important;
+}
+
+#nav-intro li a {
+   color: firebrick;
+  background-color: #fff !important;
 }
   
+
+/*Nav styles*/
+#nav-intro {
+  color: darkblue;
+  border: 14px solid darkblue;
+  background-color: #fff;
+}
 
 /*Accordion styles*/
 #dropdown-intro {
@@ -132,7 +147,7 @@ h1 {
 /*Flexbox styles*/
 #flexbox-intro {
   color: rosybrown;
-  border: 14px solid rosybrown;
+  border: 16px solid rosybrown;
 }
 
 .box {
@@ -153,6 +168,41 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   color: salmon;
+ }
+
+.box2 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  padding: 2em;
+  width: 82%;
+  margin: auto;
+  background-color: seashell;
+  border: 1px solid sienna;
+}
+
+.flextest2 {
+  border: 1px solid sienna;
+  background-color: rgba(90,8,8,.08);
+  text-align: center;
+  margin: 1%;
+  padding: .5%;
+  width: 10%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: sienna;
+ }
+
+.flextest2-1 {
+  border: 1px solid sienna;
+  background-color: rgba(90,8,8,.08);
+  text-align: center;
+  margin: 1%;
+  padding: .5%;
+  width: 42%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: sienna;
  }
 
 .box3 {
