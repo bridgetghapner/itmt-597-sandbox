@@ -81,8 +81,8 @@ header {
 #horizontal-nav ul{
   width: 75%;
   margin: auto;
-  border-top: 2px solid mediumseagreen;
-  background-color: aquamarine;
+  border-top: 1px solid darkblue;
+  background-color: #fff;
 }
 
 
@@ -94,15 +94,15 @@ header {
 }
 
 #horizontal-nav li a {
-  background-color: aquamarine;
+  background-color: #fff;
   text-decoration: none;
   color: darkblue;
 }
 
 #horizontal-nav li a:hover {
-  background-color: aquamarine;
+  background-color: #fff;
   text-decoration: none;
-  color: firebrick;
+  color: royalblue;
 }
 
 /*Accordion styles*/
