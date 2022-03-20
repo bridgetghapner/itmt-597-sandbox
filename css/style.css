@@ -78,55 +78,60 @@ header {
   background-color: #fff;
 }
 
-#horizontal-nav ul{ 
-  width: 18%;
-  float: left;
-  border-top: 1px solid darkblue;
-  background-color: #fff;
-  padding: 2%;
-  margin-left: 3%;
+#nav-experiment {
+  display: flex;
+  justify-content: center;
 }
 
+#side-nav {
+  border: 1px solid darkblue; 
+  width: 20%;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  height: 280px;
+  padding: 20px 0;
+  color: #fff;
+  top: 0px;
+  bottom: auto;
+}
 
-#horizontal-nav li{
+#side-nav li{
   list-style: none;
   font-weight: 400;
-  padding: 1%;
+  padding-bottom: 2%;
 }
 
-#horizontal-nav li a {
+#side-nav li a {
   background-color: #fff;
-  text-decoration: none;
   color: darkblue;
 }
 
-#horizontal-nav li a:hover {
+#side-nav li a:hover {
   background-color: #fff;
   text-decoration: none;
   color: royalblue;
 }
 
-#it-follows {
-  width: 60%;
-  display: inline-block;
-  margin: 1%;
+#movie-content {
+  width: 62%;
   background-color: #fff;
-  padding: 3%;
-  border-top: 1px solid darkblue;
+  margin-left: 1%;
+  padding: 4%;
+  border: 1px solid darkblue;
 }
 
-#it-follows h2 {
+#movie-content h2 {
   color: darkblue;
 }
 
-#hostel {
-  width: 60%;
-  display: inline-block;
-  margin: 1%;
-  background-color: #fff;
-  padding: 3%;
-  border-top: 1px solid darkblue;
+#hostel, #deep-house, #jungle {
+  margin-top: 10%;
 }
+
 
 /*Accordion styles*/
 #dropdown-intro {
