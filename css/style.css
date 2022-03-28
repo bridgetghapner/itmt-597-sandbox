@@ -38,7 +38,7 @@ header {
   padding: 6em 0em 6em 0em;
 }
 
-#flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul, #nav-intro ul {
+#flexbox-intro ul, #buttons-intro ul, #dropdown-intro ul, #nav-intro ul, #form-intro ul {
   list-style: none;
   font-size: 1.2em;
   font-weight: 700;
@@ -69,7 +69,27 @@ header {
   color: blue;
   background-color: #fff !important;
 }
+
+#form-intro li a {
+  color: saddlebrown;
+  background-color: #fff !important;
+}
   
+
+/*Form styles*/
+#form-intro {
+  color: goldenrod;
+  border: 14px solid goldenrod;
+  background-color: #fff;
+}
+
+#form-experiment {
+  border: 1px solid red;
+  width: 50%;
+  margin: auto;
+  padding: 2em;
+}
+
 
 /*Nav styles*/
 #nav-intro {
