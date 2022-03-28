@@ -84,10 +84,20 @@ header {
 }
 
 #form-experiment {
-  border: 1px solid red;
-  width: 50%;
+  width: 45%;
   margin: auto;
-  padding: 2em;
+  padding: 3em 0em 3em 0em;
+}
+
+form div {
+  border-top: 1px solid lightgray;
+  padding: 2em 0em 2em 0em;
+  font-family: Playfair Display, serif;
+  font-weight: 700;
+}
+
+form label {
+  padding-right: 1em;
 }
 
 
